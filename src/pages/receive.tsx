@@ -49,9 +49,9 @@ const ReceiveCoinPage: React.FC = () => {
 
       {/* Wallet Balance */}
       <div className="w-full max-w-md bg-white border border-gray-300 rounded-lg p-6 mb-6 shadow-lg">
-        <h2 className="text-xl font-semibold text-gray-800 mb-4">Wallet Balance</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mb-4">Account 1</h2>
         <p className="text-gray-600 text-lg">
-          <span className="font-bold"> 5 BTC</span>{" "}
+          {/* <span className="font-bold"> 5 BTC</span>{" "} */}
          
            
         </p>
