@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Barcode from "react-barcode";
+import Bar from '../assets/bar.png'
 import BottomNav from "./stickyNav";
+import { FaClipboard } from "react-icons/fa";
 
 const ReceiveCoinPage: React.FC = () => {
   const fakeWalletId = "bc1qkgvwekk2e9weem6xhh4tzka89d8yh85aal9ed5";
@@ -76,7 +77,8 @@ const ReceiveCoinPage: React.FC = () => {
 
       {/* Barcode */}
       <div className="w-full max-w-sm flex flex-col items-center mb-8">
-        <Barcode value={fakeWalletId} />
+        {/* <Barcode value={fakeWalletId} /> */}
+        <img src={Bar} alt="" />
         <p className="text-gray-500 text-sm mt-2">Scan this barcode to receive coins.</p>
       </div>
 
@@ -89,7 +91,7 @@ const ReceiveCoinPage: React.FC = () => {
             onClick={handleCopyToClipboard}
             className="ml-4 text-blue-500 text-sm border border-blue-500 px-3 py-1 rounded-md hover:bg-blue-100 transition"
           >
-            {copied ? "Copied!" : "Copy"}
+            {copied ? "Copied!" : <FaClipboard/>}
           </button>
         </div>
       </div>
