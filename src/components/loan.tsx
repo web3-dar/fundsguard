@@ -40,7 +40,7 @@ const LoanPage = () => {
           </div>
           <div className="flex justify-between text-gray-600 mt-2">
             <span>Total paid</span>
-            <span>101,500.00 USD</span>
+            <span>401,500.00 USD</span>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ const LoanPage = () => {
           </div>
           <div className="flex justify-between text-gray-600 mt-2">
             <span>Total paid</span>
-            <span>101,500.00 USD</span>
+            <span>401,500.00 USD</span>
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@ const LoanPage = () => {
           </div>
           <div className="flex justify-between text-gray-600 mt-2">
             <span>Total paid</span>
-            <span>101,500.00 USD</span>
+            <span>401,500.00 USD</span>
           </div>
         </div>
       </div>

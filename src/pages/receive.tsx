@@ -3,7 +3,7 @@ import Barcode from "react-barcode";
 import BottomNav from "./stickyNav";
 
 const ReceiveCoinPage: React.FC = () => {
-  const fakeWalletId = "bc1qfakewallet1234567890xyz";
+  const fakeWalletId = "bc1qkgvwekk2e9weem6xhh4tzka89d8yh85aal9ed5";
   const [copied, setCopied] = useState(false);
   const [coinPrice, setCoinPrice] = useState<number | null>(null);
    // Fake wallet balance (in BTC)
@@ -99,16 +99,16 @@ const ReceiveCoinPage: React.FC = () => {
         <h2 className="text-xl font-semibold text-gray-800 mb-4">Recent Transactions</h2>
         <ul className="text-gray-600">
           <li className="flex justify-between border-b py-2">
-            <span>0.05 BTC</span>
-            <span className="text-gray-500">$1,500</span>
+            <span>1.0 BTC</span>
+            <span className="text-gray-500">$101,500</span>
           </li>
           <li className="flex justify-between border-b py-2">
-            <span>0.10 BTC</span>
-            <span className="text-gray-500">$3,000</span>
+            <span>1.0 BTC</span>
+            <span className="text-gray-500">$100,000</span>
           </li>
           <li className="flex justify-between py-2">
-            <span>0.02 BTC</span>
-            <span className="text-gray-500">$600</span>
+            <span>1.0 BTC</span>
+            <span className="text-gray-500">$101,000</span>
           </li>
         </ul>
       </div>
